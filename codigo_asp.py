@@ -14,7 +14,7 @@ def leituraDHT():
 	#leitura.humidity()
 	temp2 = leitura.temperature()
 
-	if (temp2 - temp1) == 8:
+	if (temp2 - temp1) >= 8:
 	    alarme()
         
 
